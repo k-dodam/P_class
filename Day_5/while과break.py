@@ -2,7 +2,7 @@
 시작 숫자 0, 30까지 증가
 5의 배수와 짝수는 출력하지 않음
 27 전까지만 출력
-break continue 둘 다 사용
+break continue 둘 다 사용하기
 '''
 
 num = 0

@@ -10,6 +10,6 @@ money = 5000
 icecream = 1000
 times = 1
 while times <= 2 :
-    print(f"아이스크림을 {times}번 사먹었다! 남은 돈 {money - icecream * times}원")
+    print(f"아이스크림을 {times}번 사먹었다! {money - icecream * times}원 남았다!")
     times += 1
 
