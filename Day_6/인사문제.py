@@ -4,9 +4,10 @@
 if, for 사용
 '''
 
-num = input("정수 입력 : ")
+num = int(input("정수 입력 : "))
 
-if  num < 0 :
+if  num <= 0 :
     print("잘못된 입력")
 else :
-    for nums in range(num) :
+    for i in range(1, num + 1) :
+        print(f"{i}번째 안녕하세요")
