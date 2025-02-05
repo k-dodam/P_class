@@ -68,15 +68,6 @@ print(split_text.split(","))
 words = ["apple, pizza, pasta"]
 print(",".join(words))
 
-#strip
-
-
-#lstrip
-
-
-#rstrip
-
-
 #startswith
 swith_text = "start swith"
 print(swith_text.startswith("start"))

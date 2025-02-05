@@ -59,6 +59,7 @@ while True:
     change -= coffee_price * coffee_count
     print(f"커피{coffee_count}잔을 뽑았습니다. 남은 잔돈 : {change}")
 
+
     if change < 300:
         print("잔돈이 부족하여 종료합니다.")
         break

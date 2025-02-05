@@ -9,9 +9,11 @@ continue, break 모두 사용
 name = input("영화 이름 입력 : ")
 while True :
     score = int(input("영화 평점 입력 : "))
+
     if score < 1 or score > 5 :
         print("평점은 1에서 5사이로 입력")
         continue
+
     else :
         print(f"{name}의 평점 : ", end = "")
         for i in range(1, score + 1):
