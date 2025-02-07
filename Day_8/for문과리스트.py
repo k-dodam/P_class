@@ -1,4 +1,4 @@
-color = ["red", "orange", "green", "yellow"]
+color = ["red", "orange", "yellow"]
 for color_for in color :
     print(color_for, end = " ")
 

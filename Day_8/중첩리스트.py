@@ -15,4 +15,4 @@ print(python_class[2])
 print(python_class[2][1])
 
 python_class[1][0] = "제니"
-print(python_class[1])
+print(python_class[1][0])

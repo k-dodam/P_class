@@ -7,11 +7,11 @@
 list1 = ['a', 'b', 'c']
 list2 = ['d', 'e']
 
-list3 = list1 + list2 # + 연산자 사용 경우 대입할 새로운 리스트 필요 (기존 리스트 변화 X)
+list3 = list1 + list2 # + 연산자 -> 대입할 새로운 리스트 필요 (기존 리스트 변화 X)
 print(list3)
 
 print(list1)
-list1.extend(list2) # extend() 사용 경우 기존 리스트 원본을 변경 및 대입
+list1.extend(list2) # extend() -> 기존 리스트 원본을 변경 및 대입
 print(list1)
 
 list4 = list2 * 3

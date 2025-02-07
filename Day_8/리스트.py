@@ -36,5 +36,5 @@ korean.sort(reverse=True) # 리스트 원본을 내림차순으로 변경
 print(korean)
 
 minji = ["minji", "minji", "kwonminji"]
-print(set(minji)) # 중복 없앰
+print(set(minji)) # 중복 없애기
 # append() : 리스트 끝에 요소 추가 메서드
