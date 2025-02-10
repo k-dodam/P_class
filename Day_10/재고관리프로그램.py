@@ -6,7 +6,6 @@
 
 items() 이용
 for 변수 1, 2 in 딕셔너리.items():
-
 '''
 
 snack = {

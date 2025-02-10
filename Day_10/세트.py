@@ -35,4 +35,4 @@ list_banana = list(set_banana)
 tuple_banana = tuple(set_banana)
 print(list_banana)
 print(tuple_banana)
-# 세트 속 요소에 접근 >> 리스트 or 튜플로 변환 후 접근
+# 세트 속 요소에 접근 => 리스트 or 튜플로 변환 후 접근
